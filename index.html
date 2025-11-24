@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Des Chiens Trop Mignons !</title>
+    <title>Les Labradors Les Plus Mignons !</title>
     
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
+            background-color: #e6f7ff; /* Fond bleu très clair */
             color: #333;
             margin: 0;
             padding: 20px;
@@ -16,7 +16,7 @@
         }
 
         h1 {
-            color: #ff69b4; /* Un rose pour le côté mignon */
+            color: #004d99; /* Bleu foncé pour le titre */
             margin-bottom: 40px;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
@@ -25,16 +25,16 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 25px; /* Espacement entre les cartes */
+            gap: 25px;
             max-width: 1200px;
             margin: 0 auto;
         }
 
         .dog-card {
             background-color: #ffffff;
-            border: 1px solid #ddd;
+            border: 1px solid #cceeff;
             border-radius: 12px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 6px 15px rgba(0, 77, 153, 0.15); /* Ombre légère bleue */
             padding: 15px;
             width: 300px;
             text-align: center;
@@ -42,21 +42,22 @@
         }
 
         .dog-card:hover {
-            transform: translateY(-7px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transform: scale(1.03);
+            box-shadow: 0 10px 20px rgba(0, 77, 153, 0.3);
         }
 
         .dog-card img {
             width: 100%;
-            height: 200px; /* Hauteur fixe pour l'uniformité des images */
-            object-fit: cover; /* Assure que l'image couvre l'espace sans se déformer */
+            height: 200px;
+            object-fit: cover;
             border-radius: 10px;
             margin-bottom: 15px;
-            border: 3px solid #ff69b4;
+            border: 4px solid #ffcc00; /* Cadre jaune/or */
         }
 
         .dog-card p {
-            font-style: italic;
+            font-style: normal;
+            font-weight: bold;
             color: #555;
             font-size: 1.1em;
             margin: 0;
@@ -65,23 +66,26 @@
 </head>
 <body>
 
-    <h1>🐶 Notre Galerie de Chiens Super Adorables 🐾</h1>
+    <h1>🐾 Galerie Spéciale : Nos Labradors Adorables 🐾</h1>
     
     <div class="dog-container">
         
         <div class="dog-card">
-            <img src="https://images.pexels.com/photos/1472999/pexels-photo-1472999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Un chiot qui dort">
-            <p>Ce petit chiot rêve sûrement d'os et de jeux !</p>
+            <img src="https://images.pexels.com/photos/1036137/pexels-photo-1036137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                 alt="Labrador chocolat joueur">
+            <p>Le Labrador Chocolat, toujours prêt à s'amuser !</p>
         </div>
         
         <div class="dog-card">
-            <img src="https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Un chien avec une balle">
-            <p>Prêt pour jouer ? Regardez ce sourire !</p>
+            <img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                 alt="Gros plan sur un chiot Labrador jaune">
+            <p>Un adorable chiot Labrador jaune.</p>
         </div>
         
         <div class="dog-card">
-            <img src="https://images.pexels.com/photos/160846/french-bulldog-labrador-husky-young-160846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Un chien de petite taille">
-            <p>Tellement petit, tellement doux. Un vrai amour !</p>
+            <img src="https://images.pexels.com/photos/2361955/pexels-photo-2361955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                 alt="Labrador noir avec un jouet">
+            <p>Le fidèle Labrador noir avec son jouet préféré.</p>
         </div>
 
     </div>
